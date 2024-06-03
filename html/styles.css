@@ -1,17 +1,38 @@
 body {
     background-color: #f2c641;
+    font-family: Avenir;
+    color: #333;
+    font-size: medium;
 }
 
 h1 {
-    font-family: Roboto;
+    font-family: Avenir;
 }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
-.roboto-slab-<uniquifier> {
-  font-family: "Roboto Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+.banner {
+    text-align: left;
+    width: 100%;
+    border-radius: 1px;
+    background-color: #f2c641
 }
+
+.banner img {
+    width: 100%;
+    height: 1%;
+}
+
+.product1 { 
+    text-align: left;
+    width: 100%;
+    border-radius: 1px;
+    background-color: #f2c641
+}
+header, nav, main, footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    font-size: medium;
+}
+
