@@ -23,10 +23,38 @@ h1 {
 
 .product1 { 
     text-align: left;
-    width: 100%;
+    width: 45%;
     border-radius: 1px;
     background-color: #f2c641
 }
+
+.product1 img {
+    width: 50%;
+}
+
+.product2 { 
+    text-align: justify;
+    width: 45%;
+    border-radius: 1px;
+    background-color: #f2c641
+}
+
+.product2 img {
+    width: 50%;
+}
+
+.product3 { 
+    text-align: justify;
+    width: 45%;
+    border-radius: 1px;
+    background-color: #f2c641
+}
+
+.product3 img {
+    width: 50%;
+}
+
+
 header, nav, main, footer {
     width: 80%;
     margin: 0 auto;
@@ -36,3 +64,14 @@ nav {
     font-size: medium;
 }
 
+.cluster {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cluster > * {
+    margin: 0.5rem;
+}
